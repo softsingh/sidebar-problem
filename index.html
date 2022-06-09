@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Sidebar - Problem</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="d-lg-block collapse" id="sidebar">
+        <div class="d-flex justify-content-between align-items-center p-4"><a class="fs-4 d-flex align-items-center gap-2 text-decoration-none text-body" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="text-success">
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path d="M2 377.4l43 74.3A51.35 51.35 0 0 0 90.9 480h285.4l-59.2-102.6zM501.8 350L335.6 59.3A51.38 51.38 0 0 0 290.2 32h-88.4l257.3 447.6 40.7-70.5c1.9-3.2 21-29.7 2-59.1zM275 304.5l-115.5-200L44 304.5z"></path>
+                </svg><span>Brand</span></a><button class="btn-close d-lg-none" data-bs-target="#sidebar" data-bs-toggle="collapse"></button></div>
+        <div class="sidebar-body">
+            <ul class="nav flex-column">
+                <li class="nav-item"><a class="nav-link" href="#projects-submenu" data-bs-toggle="collapse"><i class="fas fa-briefcase"></i>Projects</a>
+                    <div id="projects-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Overview</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Grid View</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Table View</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Details</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Create Project</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link active" href="#tasks-submenu" data-bs-toggle="collapse"><i class="far fa-chart-bar"></i>Tasks</a>
+                    <div id="tasks-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#files-submenu" data-bs-toggle="collapse"><i class="far fa-file-alt"></i>Files</a>
+                    <div id="files-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#integration-submenu" data-bs-toggle="collapse"><i class="fas fa-terminal"></i>Integration<br></a>
+                    <div id="integration-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#user-submenu" data-bs-toggle="collapse"><i class="far fa-user"></i>User<br></a>
+                    <div id="user-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#settings-submenu" data-bs-toggle="collapse"><i class="far fa-sun"></i>Settings<br></a>
+                    <div id="settings-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#authentication-submenu" data-bs-toggle="collapse"><i class="fas fa-user-lock"></i>Authentication<br></a>
+                    <div id="authentication-submenu" class="collapse navbar-collapse">
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#">Item-1</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-2<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-3<br></a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-4</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Item-5</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="page">
+        <nav class="navbar navbar-light navbar-expand-md sticky-top border rounded shadow-sm m-3 p-3">
+            <div class="container-fluid">
+                <div class="d-flex gap-3"><a class="d-lg-none text-body" data-bs-target="#sidebar" data-bs-toggle="collapse" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" class="fs-4">
+                            <path d="M2 6C2 5.44772 2.44772 5 3 5H21C21.5523 5 22 5.44772 22 6C22 6.55228 21.5523 7 21 7H3C2.44772 7 2 6.55228 2 6Z" fill="currentColor"></path>
+                            <path d="M2 12.0322C2 11.4799 2.44772 11.0322 3 11.0322H21C21.5523 11.0322 22 11.4799 22 12.0322C22 12.5845 21.5523 13.0322 21 13.0322H3C2.44772 13.0322 2 12.5845 2 12.0322Z" fill="currentColor"></path>
+                            <path d="M3 17.0645C2.44772 17.0645 2 17.5122 2 18.0645C2 18.6167 2.44772 19.0645 3 19.0645H21C21.5523 19.0645 22 18.6167 22 18.0645C22 17.5122 21.5523 17.0645 21 17.0645H3Z" fill="currentColor"></path>
+                        </svg></a><a class="text-body" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                            <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                            <path d="M500.3 443.7l-119.7-119.7c27.22-40.41 40.65-90.9 33.46-144.7C401.8 87.79 326.8 13.32 235.2 1.723C99.01-15.51-15.51 99.01 1.724 235.2c11.6 91.64 86.08 166.7 177.6 178.9c53.8 7.189 104.3-6.236 144.7-33.46l119.7 119.7c15.62 15.62 40.95 15.62 56.57 0C515.9 484.7 515.9 459.3 500.3 443.7zM79.1 208c0-70.58 57.42-128 128-128s128 57.42 128 128c0 70.58-57.42 128-128 128S79.1 278.6 79.1 208z"></path>
+                        </svg></a></div>
+                <div class="d-flex justify-content-between gap-3">
+                    <div class="dropdown"><a aria-expanded="false" data-bs-toggle="dropdown" class="text-body" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-4">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M448 32C483.3 32 512 60.65 512 96V416C512 451.3 483.3 480 448 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H448zM448 96H288V224H448V96zM448 288H288V416H448V288zM224 224V96H64V224H224zM64 416H224V288H64V416z"></path>
+                            </svg></a>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </div>
+                    <div class="dropdown"><a aria-expanded="false" data-bs-toggle="dropdown" class="text-body" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-32 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-4">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M256 32V49.88C328.5 61.39 384 124.2 384 200V233.4C384 278.8 399.5 322.9 427.8 358.4L442.7 377C448.5 384.2 449.6 394.1 445.6 402.4C441.6 410.7 433.2 416 424 416H24C14.77 416 6.365 410.7 2.369 402.4C-1.628 394.1-.504 384.2 5.26 377L20.17 358.4C48.54 322.9 64 278.8 64 233.4V200C64 124.2 119.5 61.39 192 49.88V32C192 14.33 206.3 0 224 0C241.7 0 256 14.33 256 32V32zM216 96C158.6 96 112 142.6 112 200V233.4C112 281.3 98.12 328 72.31 368H375.7C349.9 328 336 281.3 336 233.4V200C336 142.6 289.4 96 232 96H216zM288 448C288 464.1 281.3 481.3 269.3 493.3C257.3 505.3 240.1 512 224 512C207 512 190.7 505.3 178.7 493.3C166.7 481.3 160 464.1 160 448H288z"></path>
+                            </svg></a>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </div>
+                    <div class="dropdown"><a aria-expanded="false" data-bs-toggle="dropdown" class="text-body" href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" class="fs-4">
+                                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                <path d="M326.3 218.8c0 20.5-16.7 37.2-37.2 37.2h-70.3v-74.4h70.3c20.5 0 37.2 16.7 37.2 37.2zM504 256c0 137-111 248-248 248S8 393 8 256 119 8 256 8s248 111 248 248zm-128.1-37.2c0-47.9-38.9-86.8-86.8-86.8H169.2v248h49.6v-74.4h70.3c47.9 0 86.8-38.9 86.8-86.8z"></path>
+                            </svg></a>
+                        <div class="dropdown-menu dropdown-menu-end"><a class="dropdown-item" href="#">First Item</a><a class="dropdown-item" href="#">Second Item</a><a class="dropdown-item" href="#">Third Item</a></div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,79 @@
+:root {
+  --bs-body-color-rgb: #697a8d;
+  --bs-body-color: #697a8d;
+  --bs-body-bg: #f5f5f9;
+}
+
+#sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 270px;
+  z-index: 2000;
+  background-color: #fff;
+  overflow-y: scroll;
+}
+
+#sidebar .nav-link {
+  color: var(--bs-body-color);
+}
+
+#sidebar .nav-link {
+  align-items: center;
+  display: flex;
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.75rem 1.5rem;
+  white-space: nowrap;
+}
+
+#sidebar .nav-link[data-bs-toggle='collapse']::after {
+  background-image: url('../../assets/img/Right-Arrow-Plain.svg');
+  color: #ff3e1d;
+  background-repeat: no-repeat;
+  background-size: 0.875rem 0.875rem;
+  content: '';
+  display: inline-block;
+  height: 0.875rem;
+  margin-left: auto;
+  transition: all 0.2s ease-in-out;
+  width: 0.875rem;
+}
+
+#sidebar .nav-link[data-bs-toggle='collapse'][aria-expanded='true']::after {
+  transform: rotate(90deg);
+}
+
+#sidebar .nav-link i, #sidebar .nav-link svg {
+  min-width: 1.875rem;
+}
+
+#sidebar .nav .nav .nav-link {
+  font-weight: 400;
+  padding-bottom: 0.4285714286rem;
+  padding-left: 3.375rem;
+  padding-top: 0.4285714286rem;
+}
+
+.page {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: var(--bs-gray-100);
+  width: calc(100vw - 270px);
+  min-height: 100vh;
+  overflow-y: scroll;
+  transition: all .3s;
+}
+
+@media (max-width: 991.98px) {
+  .page {
+    width: 100vw;
+  }
+}
+
+.navbar {
+  background: white;
+}
+
